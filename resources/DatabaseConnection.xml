@@ -1,0 +1,10 @@
+<CONNECTIONS>
+    	<CONNECTION ID="0" DRIVER_CLASS_NAME="com.mysql.jdbc.Driver"
+			DATABASE_URL="jdbc:mysql://localhost:3306/btclautomationserver_monirul_masudvi_06012019" 
+			USER_NAME="kayesh"
+			PASSWORD="abc" 
+			IS_DEFAULT="FALSE" />
+		<CONNECTION ID="1" DRIVER_CLASS_NAME="com.mysql.jdbc.Driver" DATABASE_URL="jdbc:mysql://192.168.12.134/btclautomationserver_2019_invoicecheck?useEncoding=true&amp;characterEncoding=UTF-8"
+  USER_NAME="btCL" PASSWORD="AutoMaTiN#134$" IS_DEFAULT="TRUE" />
+</CONNECTIONS>
+

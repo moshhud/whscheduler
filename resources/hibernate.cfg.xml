@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+        
+ <hibernate-configuration>
+ 	<session-factory>
+ 		<!-- MYSQL DIALECT -->
+ 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+ 		<!-- Connection setting -->
+ 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+ 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/btcl_domain_updated?characterEncoding=UTF-8</property>
+ 		<property name="hibernate.connection.username">root</property>
+ 		<property name="hibernate.connection.password">root</property>
+ 		<property name="show_sql">true</property>
+ 		<property name="hibernate.connection.CharSet">utf-8</property>
+		<property name="hibernate.connection.characterEncoding">utf-8</property>
+		<property name="hibernate.connection.useUnicode">true</property>
+ 		
+ 		<!-- Session context -->
+ 		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+ 		
+ 		<!-- Mapping Model Classes -->
+ 		<mapping class="whscheduler.model.ATWebhostingModel"/>
+ 		<mapping class="whscheduler.model.ATWebhostingRequestModel"/>
+ 		<mapping class="whscheduler.model.WebHostingPackageInfoModel"/>
+ 		<mapping class="whscheduler.model.WebHostingDiscountModel"/>
+ 		<mapping class="whscheduler.model.VbsequencerModel"/>
+ 		<mapping class="whscheduler.model.ATRequestModel"/>
+ 		<mapping class="whscheduler.model.ATBillModel"/>
+ 		<mapping class="whscheduler.model.ATClientModel"/>
+ 		<mapping class="whscheduler.model.ATClientDetailsModel"/>
+ 		<mapping class="whscheduler.model.ATClientContactDetailsModel"/>
+ 		<mapping class="whscheduler.model.ATStateModel"/>
+ 		<mapping class="whscheduler.model.NotificationModel"/>
+ 		
+ 	</session-factory>
+ </hibernate-configuration>

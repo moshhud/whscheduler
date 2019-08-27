@@ -1,0 +1,14 @@
+{
+	"renewInvoiceWillGenerateBefore" : 30,
+	"renewTotalYear" : 1,
+	"renewInvoiceMailToClient" : true,
+	"renewInvoiceMailToAdmin"  : false,
+	"expiredWebhostingBlockAfter" : 1,
+	"processPerRequest":10,
+	"invoiceMailprocessPerRequest":15,
+	"mailBtclInfo" : "info@btcl.com.bd",
+	"mailBtclAdmin" : "info@btcl.com.bd",
+	"mailBtclAuthority" : "amanc.svr@btcl.com.bd",
+	"mailBtclAuthorityCC" : "amanc.svr@btcl.com.bd",
+	"mailBtclAuthorityBcc" : "monirul@revesoft.com" 
+}
